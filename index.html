@@ -41,12 +41,10 @@
 
     </article>
     <article>
-        <h1>Blog do Ciro</h1>
-        Vou compartilhar coisas sobre o Ciro Gomes
-        <h2>Primeiro post!</h2>
+        <h1>Curiosidades!</h1>
+        <h2>Curiosidade #1</h2>
         <p>Por: Gabriel Borges.</p>
-        <p>Boas vindas ao Blog do Ciro! Aqui curiosidades sobre o Ciro Gomes serao compartilhadas.</p>
-        <img src="ciro.png" alt="Um homem careca com uma idade entre 60-70 anos vestindo um terno.">
+        <p>Ciro Ferreira Gomes nasceu em Pindamonhangaba, SP, em 06/11/1957</p>
         <button>❤️ <span>0</span></button>
         <button>👎 <span>0</span></button>
     </article>
@@ -61,10 +59,27 @@
                         console.log("fui clicado");
                         let texto = botao.querySelector("span");
                         texto.textContent++;}
+                        function botaoClicado() {
+console.log("fui clicado");
+let texto = botao.querySelector("span");
+
+if (curtiu === false) {
+texto.textContent++;
+curtiu = true;
+function botaoClicado() {
+console.log("fui clicado");
+let texto = botao.querySelector("span");
+
+if (curtiu === false) {
+texto.textContent++;
+curtiu = true;
+} else {
+texto.textContent--;
+curtiu = false;
+}
+}
+}
+}
 
                 }
                 )
-
-                
-            </script>
-            </html>
